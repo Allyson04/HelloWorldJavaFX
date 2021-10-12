@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="helloworldjavafx.FXMLDocumentController">
+   <children>
+      <Button fx:id="buttonHere" layoutX="93.0" layoutY="119.0" mnemonicParsing="false" onAction="#clicouBotao" prefHeight="33.0" prefWidth="134.0" text="button here~" textAlignment="JUSTIFY" />
+      <Label fx:id="labelHere" layoutX="32.0" layoutY="25.0" prefHeight="64.0" prefWidth="257.0" text="Text goes here" textFill="#ff4949">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
